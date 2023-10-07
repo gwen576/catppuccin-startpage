@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Dubai",
     scale: "C",
   },
   clock: {
@@ -61,9 +61,9 @@ const default_config = {
               icon_color: "#f5a97f",
             },
             {
-              name: "todoist",
-              url: "https://todoist.com/app/today",
-              icon: "clipboard-check",
+              name: "teams",
+              url: "https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid",
+              icon: "brand-teams",
               icon_color: "#ed8796",
             },
           ],
